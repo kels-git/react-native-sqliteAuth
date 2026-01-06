@@ -64,3 +64,16 @@ yarn-error.log
 
 # testing
 /coverage
+
+
+# SQLite Database files
+UserDB.db
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Tailwind generated files
+input.css
+tailwind.css
+tailwind.json
