@@ -147,11 +147,12 @@ npx react-native start
   <h3>🎥 App Demo</h3>
   
   <!-- Direct video embed -->
-  <video width="540" height="540" controls style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="./video/demo_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+<div align="center">
+  <video width="540" controls style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <source src="./assets/demo_compressed.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
   </video>
-  <p><small>Watch the app in action - Authentication flow demo</small></p>
+  <p><small><em>Watch the complete authentication flow: Registration → SQLite storage → Login → Dashboard</em></small></p>
 </div>
 
 
